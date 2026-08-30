@@ -1,5 +1,5 @@
 <h1>Setting Workspace</h1>
-Mungkin beberapa dari kalian sudah mempersiapkan workspace untuk praktikum ini kedepannya. Memang ada beberapa saran IDE yang bisa digunakan seperti Anaconde, Google Colab, VSCode dan yang lain.<br>
+Mungkin beberapa dari kalian sudah mempersiapkan workspace untuk praktikum ini kedepannya. Memang ada beberapa saran IDE yang bisa digunakan seperti Anaconda, Google Colab, VSCode dan yang lain.<br>
 Namun, mengingat Anaconda menurutku cukup berat dan UI nya kurang familiar aku sarankan teman-teman menggunakan Google Colab atau VSCode. <br>
 Berikut aku kasih sedikit panduan untuk setting workspace di Google Colab dan VSCode. <br>
 <br>
@@ -13,8 +13,10 @@ Berikut aku kasih sedikit panduan untuk setting workspace di Google Colab dan VS
 1. Download dan install VSCode di komputer kalian, bisa di cek di website resminya rek  disini --> https://code.visualstudio.com/Download?_exp_download=d53503e735<br>
 Sesuaikan dengan OS yang kalian gunakan ya. <br>
 <img src="image1.png" alt="image1" width="500"/> <br>
-2. Download dan install Python di komputer kalian <br>
-3. Buka VSCode, klik "Extensions" di sidebar kiri <br>
-4. Cari "Python" di kolom pencarian, lalu install <br>
-5. Ini opsional, tapi aku sarankan untuk install "Jupyter" juga biar bisa langsung bikin notebook di VSCode <br>
+2. Download dan install Python di komputer kalian, bisa cek juga website resminya di sini --> https://www.python.org/downloads/<br> Bebas mau versi berapa, tapi aku sarankan untuk install versi 3.14 atau yang terbaru<br>
+<img src="image2.png" alt="image2" width="500"/> <br>
+3. Buka VSCode, klik "Extensions" di sidebar kiri / ctrl + shift + x<br>
+4. Ini opsional, tapi aku sarankan untuk install extension "Python" <br>
+5. Ini opsional, tapi aku sarankan untuk install extension "Jupyter" juga biar bisa langsung bikin notebook di VSCode <br>
+<img src="image3.png" alt="image3" width="500"/> <img src="image4.png" alt="image4" width="500"/> <br>
 6. Selesai, kalian sudah bisa menggunakan VSCode untuk praktikum ini <br>
