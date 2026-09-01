@@ -31,7 +31,7 @@ Bilangan adalah tipe data yang digunakan untuk merepresentasikan nilai numerik. 
   <class 'bool'>
   ```
 
-### Operator Aritmatika
+### Operator Aritmatika (Arithmetic Operators)
 Adapun operator aritmatika untuk mengoperasikan bilangan-bilangan tersebut, antara lain:
 
 - **Penjumlahan (+)**
@@ -54,20 +54,20 @@ Adapun operator aritmatika untuk mengoperasikan bilangan-bilangan tersebut, anta
 
 - **Pembagian (/)**
   ```python
-  >>> 10 / 5
-  2.0
+  >>> 7 / 5
+  1.4
   ```
 
 - **Floor Division (//)**
   ```python
-  >>> 10 // 5
-  2
+  >>> 7 // 5
+  1
   ```
 
 - **Modulus (%)**
   ```python
-  >>> 10 % 5
-  0
+  >>> 7 % 5
+  2
   ```
 
 - **Pangkat (`**` atau `pow()`)**
@@ -88,12 +88,179 @@ Adapun operator aritmatika untuk mengoperasikan bilangan-bilangan tersebut, anta
   ```
 
 ---
+### Fungsi Numerik (Built-in Numeric Functions)
+Python menyediakan beberapa fungsi numerik yang dapat digunakan untuk melakukan operasi pada bilangan, antara lain:
+- **Fungsi `abs()`**: Mengembalikan nilai absolut dari sebuah bilangan.
+  ```python
+  >>> abs(-10)
+  10
+  ```
+- **Fungsi `int()`**: Mengubah nilai menjadi bilangan bulat.
+  ```python
+  >>> int(3.14)
+  3
+  ```
+- **Fungsi `float()`**: Mengubah nilai menjadi bilangan desimal.
+  ```python
+  >>> float(10)
+  10.0
+  ```
+- **Fungsi `round()`**: Membulatkan bilangan ke jumlah desimal tertentu.
+  ```python
+  >>> round(3.14159, 2)
+  3.14
+  ```
+- **Fungsi `math.ceil()`**: Mengembalikan bilangan bulat terkecil yang lebih besar atau sama dengan bilangan yang diberikan (memerlukan impor modul `math`).
+  ```python
+  >>> import math
+  >>> math.ceil(3.2)
+  4
+  ```
+- **Fungsi `math.floor()`**: Mengembalikan bilangan bulat terbesar yang lebih kecil atau sama dengan bilangan yang diberikan (memerlukan impor modul `math`).
+  ```python
+  >>> import math
+  >>> math.floor(3.8)
+  3
+  ```
+- **Fungsi `max()`**: Mengembalikan nilai maksimum dari sekumpulan bilangan.
+  ```python
+  >>> max(1, 5, 3)
+  5
+  ```
+- **Fungsi `min()`**: Mengembalikan nilai minimum dari sekumpulan bilangan.
+  ```python
+  >>> min(1, 5, 3)
+  1
+  ```
+- **Fungsi `sum()`**: Mengembalikan jumlah dari sekumpulan bilangan.
+  ```python
+  >>> sum([1, 2, 3, 4, 5])
+  15
+  ```
+- **Fungsi `pow()`**: Mengembalikan hasil perpangkatan dari dua bilangan.
+  ```python
+  >>> pow(2, 3)
+  8
+  ```
+- **Fungsi `math.sqrt()`**: Mengembalikan akar kuadrat dari sebuah bilangan (memerlukan impor modul `math`).
+  ```python
+  >>> import math
+  >>> math.sqrt(16)
+  4.0
+  ```
+- **Fungsi `math.factorial()`**: Mengembalikan faktorial dari sebuah bilangan (memerlukan impor modul `math`).
+  ```python
+  >>> import math
+  >>> math.factorial(5)
+  120
+  ```
+- **Fungsi `math.log()`**: Mengembalikan logaritma dari sebuah bilangan (memerlukan impor modul `math`).
+  ```python
+  >>> import math
+  >>> math.log(100, 10)
+  2.0
+  ```
+- **Fungsi `math.exp()`**: Mengembalikan nilai eksponensial dari sebuah bilangan (memerlukan impor modul `math`).
+  ```python
+  >>> import math
+  >>> math.exp(2)
+  7.38905609893065
+  ```
+- **Fungsi `math.sin()`, `math.cos()`, `math.tan()`**: Mengembalikan nilai sinus, kosinus, dan tangen dari sebuah sudut dalam radian (memerlukan impor modul `math`).
+  ```python
+  >>> import math
+  >>> math.sin(math.pi / 2)
+  1.0
+  >>> math.cos(0)
+  1.0
+  >>> math.tan(math.pi / 4)
+  0.9999999999999999
+  ```
+Dan masih banyak lagi fungsi numerik lainnya yang dapat digunakan sesuai kebutuhan kalian.
 
 ### Apa itu Variabel?
 Variabel adalah tempat untuk menyimpan data atau nilai. Variabel dapat diibaratkan sebagai "wadah" yang dapat menampung berbagai jenis data, termasuk bilangan dan string.
+notes: Variabel di Python tidak memerlukan deklarasi tipe data secara eksplisit, karena Python menggunakan tipe data dinamis. Artinya, kalian bisa langsung memberikan nilai pada variabel tanpa harus menyebutkan tipe datanya.<br>
+selain itu, python juga memiliki aturan penamaan variabel yang harus diikuti, seperti tidak boleh diawali dengan angka, tidak boleh menggunakan spasi, dan tidak boleh menggunakan karakter khusus kecuali underscore (_).<br>
+Adapun case sensitif, artinya variabel dengan nama yang sama tetapi berbeda huruf besar/kecil dianggap sebagai variabel yang berbeda pula. Misalnya, `variabel` dan `Variabel` adalah dua variabel yang berbeda.<br>
+Python sangat memperhatikan indentasi (spasi di awal baris) untuk menentukan blok kode. Jadi, pastikan kalian menggunakan indentasi yang konsisten saat menulis kode Python.<br>
+
+
+### Operator Penugasan
+Operator penugasan digunakan untuk memberikan nilai pada variabel. Beberapa operator penugasan yang umum digunakan antara lain:
+- **Penugasan Sederhana (=)**
+  ```python
+  >>> x = 10
+  >>> x
+  10
+  ```
+
+- **Penugasan dengan Penjumlahan (+=)**
+  ```python
+  >>> x = 10
+  >>> x += 5
+  >>> x
+  15
+  ```
+
+- **Penugasan dengan Pengurangan (-=)**
+  ```python
+  >>> x = 10
+  >>> x -= 5
+  >>> x
+  5
+  ```
+
+- **Penugasan dengan Perkalian (*=)**
+  ```python
+  >>> x = 10
+  >>> x *= 5
+  >>> x
+  50
+  ```
+
+- **Penugasan dengan Pembagian (/=)**
+  ```python
+  >>> x = 10
+  >>> x /= 5
+  >>> x
+  2.0
+  ```
+
+- **Penugasan dengan Floor Division (//=)**
+  ```python
+  >>> x = 10
+  >>> x //= 5
+  >>> x
+  2
+  ```
+
+- **Penugasan dengan Modulus (%=)**
+  ```python
+  >>> x = 10
+  >>> x %= 5
+  >>> x
+  0
+  ```
+
+- **Penugasan dengan Pangkat (**=)**
+  ```python
+  >>> x = 10
+  >>> x **= 2
+  >>> x
+  100
+  ```
+
+- **Penugasan dengan Akar Kuadrat (**= 0.5)**
+  ```python
+  >>> x = 16
+  >>> x **= 0.5
+  >>> x
+  4.0
+  ```
 
 ### Gimana cara menampilkannya di terminal?
-Kamu bisa menggunakan fungsi `print()` untuk menampilkan nilai dari variabel atau bilangan-bilangan tersebut ke layar.
+Kalian bisa pake fungsi `print()` untuk menampilkan nilai dari variabel atau bilangan-bilangan tersebut ke layar.
 
 ```python
 >>> hasil = 10 + 5
