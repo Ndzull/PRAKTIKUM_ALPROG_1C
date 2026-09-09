@@ -86,7 +86,7 @@ Adapun operator aritmatika untuk mengoperasikan bilangan-bilangan tersebut, anta
   >>> math.sqrt(16)
   4.0
   ```
-
+notes: pada python, perhitungan dieksekusi sesuai urutan operasi matematika, yaitu kurung, pangkat, perkalian/pembagian, penjumlahan/pengurangan.
 ---
 ### Fungsi Numerik (Built-in Numeric Functions)
 Python menyediakan beberapa fungsi numerik yang dapat digunakan untuk melakukan operasi pada bilangan, antara lain:
@@ -346,5 +346,74 @@ note: Indexing dimulai dari 0 untuk karakter pertama, dan dapat menggunakan inde
   Hello
   >>> print(str1[::2])  # Mengambil karakter dengan langkah 2
   HloWrd
+  ```
+---
+
+### Fungsi String (Built-in String Functions)
+Python menyediakan berbagai fungsi bawaan untuk memanipulasi string. Beberapa fungsi string yang umum digunakan antara lain:
+- **Fungsi `upper()`**: Mengubah semua huruf dalam string menjadi huruf besar.
+  ```python
+  >>> teks = "hello world"
+  >>> teks.upper()
+  'HELLO WORLD'
+  ```
+- **Fungsi `lower()`**: Mengubah semua huruf dalam string menjadi huruf kecil.
+  ```python
+  >>> teks = "HELLO WORLD"
+  >>> teks.lower()
+  'hello world'
+  ```
+- **Fungsi `capitalize()`**: Mengubah huruf pertama dalam string menjadi huruf besar dan sisanya menjadi huruf kecil.
+  ```python
+  >>> teks = "hello world"
+  >>> teks.capitalize()
+  'Hello world'
+  ```
+- **Fungsi `title()`**: Mengubah huruf pertama dari setiap kata dalam string menjadi huruf besar.
+  ```python
+  >>> teks = "hello world"
+  >>> teks.title()
+  'Hello World'
+  ```
+- **Fungsi `strip()`**: Menghapus spasi di awal dan akhir string.
+  ```python
+  >>> teks = "   hello world   "
+  >>> teks.strip()
+  'hello world'
+  ```
+- **Fungsi `replace()`**: Mengganti substring tertentu dalam string dengan substring lain.
+  ```python
+  >>> teks = "hello world"
+  >>> teks.replace("world", "Python")
+  'hello Python'
+  ```
+- **Fungsi `split()`**: Memisahkan string menjadi daftar berdasarkan pemisah tertentu.
+  ```python
+  >>> teks = "hello world"
+  >>> teks.split(" ")
+  ['hello', 'world']
+  ```
+- **Fungsi `join()`**: Menggabungkan elemen-elemen dalam daftar menjadi string dengan pemisah tertentu.
+  ```python
+  >>> daftar = ['hello', 'world']
+  >>> " ".join(daftar)
+  'hello world'
+  ```
+
+- **Fungsi `find()`**: Mengembalikan indeks dari substring pertama yang ditemukan dalam string. Jika substring tidak ditemukan, mengembalikan -1.
+  ```python
+  >>> teks = "hello world"
+  >>> teks.find("world")
+  6
+  >>> teks.find("Python")
+  -1
+  ```
+- **Fungsi `count()`**: Menghitung jumlah kemunculan substring dalam string.
+  ```python
+  >>> teks = "hello world"
+  >>> teks.count("o")
+  2
+  >>> teks.count("Python")
+  0
   ```
 ---
