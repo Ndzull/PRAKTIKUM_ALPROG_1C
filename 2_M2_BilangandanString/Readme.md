@@ -86,11 +86,14 @@ Adapun operator aritmatika untuk mengoperasikan bilangan-bilangan tersebut, anta
   >>> math.sqrt(16)
   4.0
   ```
-<br>
-<br>notes: pada python, perhitungan dieksekusi sesuai urutan operasi matematika, yaitu kurung, pangkat, perkalian/pembagian, penjumlahan/pengurangan.<br>
+
+**Notes:** Pada Python, perhitungan dieksekusi sesuai urutan operasi matematika, yaitu kurung, pangkat, perkalian/pembagian, penjumlahan/pengurangan.
+
 ---
+
 ### Fungsi Numerik (Built-in Numeric Functions)
 Python menyediakan beberapa fungsi numerik yang dapat digunakan untuk melakukan operasi pada bilangan, antara lain:
+
 - **Fungsi `abs()`**: Mengembalikan nilai absolut dari sebuah bilangan.
   ```python
   >>> abs(-10)
@@ -177,20 +180,25 @@ Python menyediakan beberapa fungsi numerik yang dapat digunakan untuk melakukan 
   >>> math.tan(math.pi / 4)
   0.9999999999999999
   ```
+
 Dan masih banyak lagi fungsi numerik lainnya yang dapat digunakan sesuai kebutuhan kalian.
+
 ---
 
 ### Apa itu Variabel?
-<p>
-Variabel adalah tempat untuk menyimpan data atau nilai. Variabel dapat diibaratkan sebagai "wadah" yang dapat menampung berbagai jenis data, termasuk bilangan dan string.<br><br>
-notes: Variabel di Python tidak memerlukan deklarasi tipe data secara eksplisit, karena Python menggunakan tipe data dinamis. Artinya, kalian bisa langsung memberikan nilai pada variabel tanpa harus menyebutkan tipe datanya.<br>
-selain itu, python juga memiliki aturan penamaan variabel yang harus diikuti, seperti tidak boleh diawali dengan angka, tidak boleh menggunakan spasi, dan tidak boleh menggunakan karakter khusus kecuali underscore (_).<br>
-Adapun case sensitif, artinya variabel dengan nama yang sama tetapi berbeda huruf besar/kecil dianggap sebagai variabel yang berbeda pula. Misalnya, `variabel` dan `Variabel` adalah dua variabel yang berbeda.<br>
-Python sangat memperhatikan indentasi (spasi di awal baris) untuk menentukan blok kode. Jadi, pastikan kalian menggunakan indentasi yang konsisten saat menulis kode Python.<br></p>
+Variabel adalah tempat untuk menyimpan data atau nilai. Variabel dapat diibaratkan sebagai "wadah" yang dapat menampung berbagai jenis data, termasuk bilangan dan string.
+
+**Notes:** 
+* Variabel di Python tidak memerlukan deklarasi tipe data secara eksplisit, karena Python menggunakan tipe data dinamis. Artinya, kalian bisa langsung memberikan nilai pada variabel tanpa harus menyebutkan tipe datanya.
+* Selain itu, Python juga memiliki aturan penamaan variabel yang harus diikuti, seperti tidak boleh diawali dengan angka, tidak boleh menggunakan spasi, dan tidak boleh menggunakan karakter khusus kecuali underscore (`_`).
+* Adapun *case sensitive*, artinya variabel dengan nama yang sama tetapi berbeda huruf besar/kecil dianggap sebagai variabel yang berbeda pula. Misalnya, `variabel` dan `Variabel` adalah dua variabel yang berbeda.
+* Python sangat memperhatikan indentasi (spasi di awal baris) untuk menentukan blok kode. Jadi, pastikan kalian menggunakan indentasi yang konsisten saat menulis kode Python.
+
 ---
 
 ### Operator Penugasan
 Operator penugasan digunakan untuk memberikan nilai pada variabel. Beberapa operator penugasan yang umum digunakan antara lain:
+
 - **Penugasan Sederhana (=)**
   ```python
   >>> x = 10
@@ -246,7 +254,7 @@ Operator penugasan digunakan untuk memberikan nilai pada variabel. Beberapa oper
   0
   ```
 
-- **Penugasan dengan Pangkat (**=)**
+- **Penugasan dengan Pangkat (`**=`)**
   ```python
   >>> x = 10
   >>> x **= 2
@@ -254,14 +262,16 @@ Operator penugasan digunakan untuk memberikan nilai pada variabel. Beberapa oper
   100
   ```
 
-- **Penugasan dengan Akar Kuadrat (**= 0.5)**
+- **Penugasan dengan Akar Kuadrat (`**= 0.5`)**
   ```python
   >>> x = 16
   >>> x **= 0.5
   >>> x
   4.0
   ```
+
 ---
+
 ### Gimana cara menampilkannya di terminal?
 Kalian bisa pake fungsi `print()` untuk menampilkan nilai dari variabel atau bilangan-bilangan tersebut ke layar.
 
@@ -282,16 +292,22 @@ String adalah tipe data yang digunakan untuk merepresentasikan teks. String dapa
 >>> type(teks_satu)
 <class 'str'>
 ```
+
 ---
+
 ### Variabel String
 Kalian bisa menyimpan string ke dalam variabel, sama seperti bilangan. Berikut contohnya:
 ```python
 >>> nama = "Ijul Chlea"
 >>> print(nama)
 Ijul Chlea
+```
+
 ---
+
 ### Operator String
 Operator string digunakan untuk melakukan operasi pada string, seperti penggabungan (concatenation) dan pengulangan (repetition). Beberapa operator string yang umum digunakan antara lain:
+
 - **Penggabungan (+)**
   ```python
   >>> str1 = "Hello"
@@ -322,14 +338,15 @@ Operator string digunakan untuk melakukan operasi pada string, seperti penggabun
   >>> print(panjang)
   11
   ```
+
 ---
+
 ### Indexing dan Slicing
 String di Python dapat diakses menggunakan indexing dan slicing. Indexing digunakan untuk mengakses karakter tertentu dalam string, sedangkan slicing digunakan untuk mengambil sebagian dari string.
-<br><br>
-note: Indexing dimulai dari 0 untuk karakter pertama, dan dapat menggunakan indeks negatif untuk mengakses karakter dari akhir string.
-<br><br>
-- **Indexing**
 
+**Note:** Indexing dimulai dari 0 untuk karakter pertama, dan dapat menggunakan indeks negatif untuk mengakses karakter dari akhir string.
+
+- **Indexing**
   ```python
   >>> str1 = "Hello World"
   >>> print(str1[0])  # Mengakses karakter pertama
@@ -337,6 +354,7 @@ note: Indexing dimulai dari 0 untuk karakter pertama, dan dapat menggunakan inde
   >>> print(str1[-1])  # Mengakses karakter terakhir
   d
   ```
+
 - **Slicing**
   ```python
   >>> str1 = "Hello World"
@@ -349,10 +367,12 @@ note: Indexing dimulai dari 0 untuk karakter pertama, dan dapat menggunakan inde
   >>> print(str1[::2])  # Mengambil karakter dengan langkah 2
   HloWrd
   ```
+
 ---
 
 ### Fungsi String (Built-in String Functions)
 Python menyediakan berbagai fungsi bawaan untuk memanipulasi string. Beberapa fungsi string yang umum digunakan antara lain:
+
 - **Fungsi `upper()`**: Mengubah semua huruf dalam string menjadi huruf besar.
   ```python
   >>> teks = "hello world"
@@ -401,7 +421,6 @@ Python menyediakan berbagai fungsi bawaan untuk memanipulasi string. Beberapa fu
   >>> " ".join(daftar)
   'hello world'
   ```
-
 - **Fungsi `find()`**: Mengembalikan indeks dari substring pertama yang ditemukan dalam string. Jika substring tidak ditemukan, mengembalikan -1.
   ```python
   >>> teks = "hello world"
@@ -418,17 +437,14 @@ Python menyediakan berbagai fungsi bawaan untuk memanipulasi string. Beberapa fu
   >>> teks.count("Python")
   0
   ```
+
 ---
 
+## TUGAS HEHEHE
+Akseslah soal berikut ini: 
+[Soal Praktikum Python](https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?usp=sharing)
 
+**DEADLINE: 20 September 2026, 23:59 WIB**
 
-
-<br><br><br>
-##TUGAS HEHEHE
-akses lah soal berikut ini : <br> https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?usp=sharing
-
-
-<br><br>
-<b>DEADLINE: 20 September 2026, 23:59 WIB</b>
-<br><br>
-Kumpulin link repo/github kalian di spreadsheet:<br> https://docs.google.com/spreadsheets/d/1w_7-4rPP-2dWpsEoD6EZ1fd0WEB08PfHxuweXVvJzJ4/edit?usp=sharing
+Kumpulkan link repo/github kalian di spreadsheet ini: 
+[Spreadsheet Pengumpulan Tugas](https://docs.google.com/spreadsheets/d/1w_7-4rPP-2dWpsEoD6EZ1fd0WEB08PfHxuweXVvJzJ4/edit?usp=sharing)
