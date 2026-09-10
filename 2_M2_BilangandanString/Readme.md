@@ -425,11 +425,10 @@ Python menyediakan berbagai fungsi bawaan untuk memanipulasi string. Beberapa fu
 
 <br><br><br>
 ##TUGAS HEHEHE
-akses lah soal berikut ini : <br>
-[Soal Bilangan dan String](https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?usp=sharing)
+akses lah soal berikut ini : <br> https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?usp=sharing
 
 
 <br><br>
 <b>DEADLINE: 20 September 2026, 23:59 WIB</b>
 <br><br>
-Kumpulin link repo/github kalian di spreadsheet: https://docs.google.com/spreadsheets/d/1w_7-4rPP-2dWpsEoD6EZ1fd0WEB08PfHxuweXVvJzJ4/edit?usp=sharing
+Kumpulin link repo/github kalian di spreadsheet:<br> https://docs.google.com/spreadsheets/d/1w_7-4rPP-2dWpsEoD6EZ1fd0WEB08PfHxuweXVvJzJ4/edit?usp=sharing
