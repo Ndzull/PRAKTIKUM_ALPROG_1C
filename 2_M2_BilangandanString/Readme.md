@@ -87,7 +87,7 @@ Adapun operator aritmatika untuk mengoperasikan bilangan-bilangan tersebut, anta
   4.0
   ```
 <br>
-<br>notes: pada python, perhitungan dieksekusi sesuai urutan operasi matematika, yaitu kurung, pangkat, perkalian/pembagian, penjumlahan/pengurangan.
+<br>notes: pada python, perhitungan dieksekusi sesuai urutan operasi matematika, yaitu kurung, pangkat, perkalian/pembagian, penjumlahan/pengurangan.<br>
 ---
 ### Fungsi Numerik (Built-in Numeric Functions)
 Python menyediakan beberapa fungsi numerik yang dapat digunakan untuk melakukan operasi pada bilangan, antara lain:
