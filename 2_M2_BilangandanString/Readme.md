@@ -442,7 +442,7 @@ Python menyediakan berbagai fungsi bawaan untuk memanipulasi string. Beberapa fu
 
 ## TUGAS HEHEHE
 Akseslah soal berikut ini: 
-[Soal Praktikum Python](https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?usp=sharing)
+[Soal Praktikum M2](https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?usp=sharing)
 
 **DEADLINE: 20 September 2026, 23:59 WIB**
 
