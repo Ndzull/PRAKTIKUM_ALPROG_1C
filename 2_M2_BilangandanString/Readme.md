@@ -86,7 +86,8 @@ Adapun operator aritmatika untuk mengoperasikan bilangan-bilangan tersebut, anta
   >>> math.sqrt(16)
   4.0
   ```
-notes: pada python, perhitungan dieksekusi sesuai urutan operasi matematika, yaitu kurung, pangkat, perkalian/pembagian, penjumlahan/pengurangan.
+<br>
+<br>notes: pada python, perhitungan dieksekusi sesuai urutan operasi matematika, yaitu kurung, pangkat, perkalian/pembagian, penjumlahan/pengurangan.
 ---
 ### Fungsi Numerik (Built-in Numeric Functions)
 Python menyediakan beberapa fungsi numerik yang dapat digunakan untuk melakukan operasi pada bilangan, antara lain:
@@ -180,7 +181,7 @@ Dan masih banyak lagi fungsi numerik lainnya yang dapat digunakan sesuai kebutuh
 ---
 
 ### Apa itu Variabel?
-Variabel adalah tempat untuk menyimpan data atau nilai. Variabel dapat diibaratkan sebagai "wadah" yang dapat menampung berbagai jenis data, termasuk bilangan dan string.
+Variabel adalah tempat untuk menyimpan data atau nilai. Variabel dapat diibaratkan sebagai "wadah" yang dapat menampung berbagai jenis data, termasuk bilangan dan string.<br><br>
 notes: Variabel di Python tidak memerlukan deklarasi tipe data secara eksplisit, karena Python menggunakan tipe data dinamis. Artinya, kalian bisa langsung memberikan nilai pada variabel tanpa harus menyebutkan tipe datanya.<br>
 selain itu, python juga memiliki aturan penamaan variabel yang harus diikuti, seperti tidak boleh diawali dengan angka, tidak boleh menggunakan spasi, dan tidak boleh menggunakan karakter khusus kecuali underscore (_).<br>
 Adapun case sensitif, artinya variabel dengan nama yang sama tetapi berbeda huruf besar/kecil dianggap sebagai variabel yang berbeda pula. Misalnya, `variabel` dan `Variabel` adalah dua variabel yang berbeda.<br>
@@ -417,3 +418,17 @@ Python menyediakan berbagai fungsi bawaan untuk memanipulasi string. Beberapa fu
   0
   ```
 ---
+
+
+
+
+<br><br><br>
+##TUGAS HEHEHE
+akses lah soal berikut ini : <br>
+[Soal Bilangan dan String](https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?usp=sharing)
+
+
+<br><br>
+<b>DEADLINE: 20 September 2026, 23:59 WIB</b>
+<br><br>
+Kumpulin link repo/github kalian di spreadsheet: https://docs.google.com/spreadsheets/d/1w_7-4rPP-2dWpsEoD6EZ1fd0WEB08PfHxuweXVvJzJ4/edit?usp=sharing
