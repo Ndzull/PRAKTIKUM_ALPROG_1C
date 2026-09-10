@@ -181,11 +181,12 @@ Dan masih banyak lagi fungsi numerik lainnya yang dapat digunakan sesuai kebutuh
 ---
 
 ### Apa itu Variabel?
+<p>
 Variabel adalah tempat untuk menyimpan data atau nilai. Variabel dapat diibaratkan sebagai "wadah" yang dapat menampung berbagai jenis data, termasuk bilangan dan string.<br><br>
 notes: Variabel di Python tidak memerlukan deklarasi tipe data secara eksplisit, karena Python menggunakan tipe data dinamis. Artinya, kalian bisa langsung memberikan nilai pada variabel tanpa harus menyebutkan tipe datanya.<br>
 selain itu, python juga memiliki aturan penamaan variabel yang harus diikuti, seperti tidak boleh diawali dengan angka, tidak boleh menggunakan spasi, dan tidak boleh menggunakan karakter khusus kecuali underscore (_).<br>
 Adapun case sensitif, artinya variabel dengan nama yang sama tetapi berbeda huruf besar/kecil dianggap sebagai variabel yang berbeda pula. Misalnya, `variabel` dan `Variabel` adalah dua variabel yang berbeda.<br>
-Python sangat memperhatikan indentasi (spasi di awal baris) untuk menentukan blok kode. Jadi, pastikan kalian menggunakan indentasi yang konsisten saat menulis kode Python.<br>
+Python sangat memperhatikan indentasi (spasi di awal baris) untuk menentukan blok kode. Jadi, pastikan kalian menggunakan indentasi yang konsisten saat menulis kode Python.<br></p>
 ---
 
 ### Operator Penugasan
