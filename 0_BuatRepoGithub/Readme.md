@@ -2,16 +2,16 @@
 
 1. Buka situs web GitHub di https://github.com<br>
 2. Klik tombol "Sign up" untuk membuat akun baru (jika belum memiliki akun) atau login ke akun yang sudah ada.<br>
-<img src="/src/image1.png" width=400px><br>
+<img src="src/image1.png" width=400px><br>
 3. Setelah login, klik tombol "New" di bagian kiri atas<br>
-<p><img src="/src/image2.png" width=400px><img src="/src/image3.png" width=400px></p><br>
+<p><img src="src/image2.png" width=400px><img src="src/image3.png" width=400px></p><br>
 4. Masukkan nama repository<br>
 5. Pastikan opsi repository adalah public<br>
-<img src="/src/image4.png" width=400px><br>
+<img src="src/image4.png" width=400px><br>
 6. Klik tombol "Create Repository"<br>
-<img src="/src/image5.png" width=400px><br>
+<img src="src/image5.png" width=400px><br>
 7. Repository berhasil dibuat dan siap digunakan<br>
-<img src="/src/image6.png" width=400px><br><br>
+<img src="src/image6.png" width=400px><br><br>
 notes:<br>
 - Pastikan nama repository sesuai dengan nama tugas (contoh: Tugas M2)
 - Pada deskripsi repository WAJIB diisi dengan nama tugas, nama mata kuliah, nama lengkap, NRP, dan nama asdos (contoh: Nama Tugas -  Nama Mata Kuliah - Nama Lengkap - NRP - Nama Asdos)<br>
