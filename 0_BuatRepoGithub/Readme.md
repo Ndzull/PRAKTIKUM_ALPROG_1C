@@ -18,33 +18,41 @@ notes:<br>
 # Cara upload file ke repository
 ## Cara manual
 1. Buka repository yang telah dibuat<br><img src="src/image7.png" width=400px><br>
-2. Klik tombol "Add file" dan pilih "Upload files"<br>
+2. Klik tombol "Add file" atau "upload existing files" dan pilih "Upload files"<br><img src="src/image9.png" width=400px><br>
 3. Pilih file yang ingin diupload<br>
-4. Klik tombol "Commit changes" untuk menyimpan perubahan<br>
+4. Klik tombol "Commit changes" untuk menyimpan perubahan<br><br><img src="src/image10.png" width=400px><br>
+5. File berhasil diupload ke repository<br><img src="src/image11.png" width=400px><br><br>
 ## Cara menggunakan Git
 1. Pastikan Git sudah terinstall di device kalian (bisa diinstall dari https://git-scm.com/downloads)<br><img src="src/image8.png" width=400px><br>
-2. Buka terminal atau command prompt IDE kalian (contoh: Vscode)<br>
-3. Initialize repository Git di folder project kalian dengan perintah:<br>
+2. Buka terminal atau command prompt IDE kalian (contoh: Vscode)<br><img src="src/image12.png" width=400px><br>
+3. Bisa cek versi Git yang terinstall dengan perintah:<br>
+   ```
+   git --version
+   ```
+   <p><img src="src/image12.png" width=400px></p><br>
+4. Initialize repository Git di folder project kalian dengan perintah:<br>
    ```
    git init
    ```
-4. Clone repository yang telah dibuat dengan perintah:<br>
+5. Clone repository yang telah dibuat dengan perintah:<br>
    ```
    git clone <URL_REPOSITORY>
    ```
-5. Masuk ke folder repository yang telah di-clone dengan perintah:<br>
+   <img src="src/image13.png" width=200px><img src="src/image14.png" width=400px><br>
+6. Masuk ke folder repository yang telah di-clone dengan perintah:<br>
    ```
    cd <NAMA_REPOSITORY>
    ```
-6. Tambahkan file yang ingin diupload ke repository dengan perintah:<br>
+7. Tambahkan file yang ingin diupload ke repository dengan perintah:<br>
    ```
    git add <NAMA_FILE>
    ```
-7. Commit perubahan dengan perintah:<br>
+8. Commit perubahan dengan perintah:<br>
    ```
    git commit -m "Pesan commit"
    ```
-8. Push perubahan ke repository dengan perintah:<br>
+9. Push perubahan ke repository dengan perintah:<br>
    ```
    git push origin main
    ```
+    <img src="src/image15.png" width=400px><br>
