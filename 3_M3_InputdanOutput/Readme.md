@@ -202,10 +202,10 @@ Kita juga bisa mengatur format angka, misalnya menampilkan angka dengan jumlah d
 ---
 KERJAKAN SOAL PADA LINK BERIKUT:
 
-[Soal Modul 3](https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?tab=t.a03w0sdtbszu)
+[Soal Modul 3](https://docs.google.com/document/d/1UIGhq1tGzRhm_bKKl8NCkBdIOG8oO3nWWbQUqNhN3N8/edit?usp=sharing)
 
 **DEADLINE PENGUMPULAN: 20 September 2026, 23.59 WIB**
 
 LINK PENGUMPULAN:
 
-[Link Pengumpulan](https://docs.google.com/spreadsheets/d/1w_7-4rPP-2dWpsEoD6EZ1fd0WEB08PfHxuweXVvJzJ4/edit?gid=62181998#gid=62181998)
+[Link Pengumpulan](https://docs.google.com/spreadsheets/d/1w_7-4rPP-2dWpsEoD6EZ1fd0WEB08PfHxuweXVvJzJ4/edit?usp=sharing)
