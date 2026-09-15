@@ -1,4 +1,4 @@
-# Modul 3: Input dan Output
+# Input dan Output
 
 Dalam pembuatan program, kita pasti membutuhkan cara untuk berinteraksi dengan pengguna (*user*). Kita perlu menampilkan hasil pemrosesan (Output) dan menerima data atau perintah dari pengguna (Input).
 
