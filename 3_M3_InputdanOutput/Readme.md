@@ -113,15 +113,6 @@ NRP     : 123456789
 
 ---
 
-- `\v` : tabulasi horizontal (*vertical tab space*)
-```python
->>> print("Halo!\vSelamat datang di kelas Statistika Bisnis ITS.")
-Halo!
-Selamat datang di kelas Statistika Bisnis ITS.
-```
-
----
-
 - `\\` : menampilkan karakter backslash (`\`)
 ```python
 >>> print("C:\\Users\\Ijul\\Documents")
