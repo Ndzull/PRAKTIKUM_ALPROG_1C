@@ -225,7 +225,7 @@ Buatlah program untuk menghitung **Total Gaji** HANYA untuk karyawan yang bekerj
 
 ---
 
-## 3. Studi Kasus 3: Audit Stok Gudang (Peringatan Sistem)
+## Case 3
 **Konsep:** `For Loop` + `If-Else` + Operator Logika `not`
 
 Dalam sistem gudang, kita harus memberi peringatan jika stok menipis. Namun, kita **tidak perlu** memesan barang jika barang tersebut statusnya sudah dihentikan produksinya (*discontinued*). Kita menggunakan logika `not` untuk membalikkan status boolean.
@@ -265,6 +265,6 @@ INFO       : Stok Penggaris sisa 3 (Produk sudah tidak diproduksi).
 PERINGATAN : Stok Spidol tinggal 5! Segera re-order.
 ```
 
-**Soal 3**
+**Soal 8**
 Diberikan data penjualan: `penjualan = [("Kopi", 60, False), ("Teh", 30, False), ("Boba", 80, True)]` yang berisi (Nama Minuman, Jumlah Terjual, Sedang Promo).
 Sebuah minuman dianggap laku keras murni jika terjual **lebih dari 50 cup** DAN **TIDAK sedang dalam masa promo**. Gunakan loop, if, dan logika `not` untuk mendeteksi minuman mana yang memenuhi kriteria tersebut, lalu cetak nama minumannya!
